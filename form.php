@@ -12,7 +12,7 @@ $email_body = "User Name: $name.\n".
                    "User Message: $massage.\n";
 
 
-$to = "007sahirkhan@gmail.com";
+$to = "aiman432@gmail.com";
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-to: $visitor_email \r\n";
 mail($to,$email_subject,$email_body,$headers);
