@@ -1,0 +1,346 @@
+
+/* .{
+    color: cornsilk;
+     background-color: blue; 
+    font-family: Georgia,serif;
+    font-weight: normal;
+    font-style: italic;
+     text-transform: none; 
+    letter-spacing: 0px;
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 13px;
+     text-transform: uppercase;
+    text-decoration: none; 
+    letter-spacing: 1px;
+    width: 25%;
+} */
+/* .carousel-item::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252, 246, 246);
+    opacity: .7 !important;
+    z-index: -1;
+}  */
+/* .d-block{
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+.d-block::after{
+    content: '';
+    background: rgb(154, 235, 208,0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252, 246, 246);
+    opacity: .7 !important;
+    z-index: -1;
+} */
+.carousel-inner{
+   
+    height: 100vh;
+    min-height:300px ;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-control-next-icon{
+    /* color: cyan;
+    background-color: cyan; */
+    display: none;
+
+
+}
+.sr-only{
+    /* background-color: cyan; */
+    color: cyan;
+    display: none;
+}
+.carousel-control-prev-icon{
+    /* background-color: cyan; */
+    display: none;
+}
+.carousel-caption h5{
+    color: rgb(252, 248, 252);
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+     font-family: merienda; 
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.9;
+    font-family: poppins;
+    background-color: rgba(249, 250, 243,); 
+    color: rgb(248, 245, 245); 
+}
+.carousel-indicators li{
+    background-color: cyan;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid blanchedalmond;
+     cursor: pointer; 
+     margin: 10px 6px ;
+}
+.carousel-caption a{
+text-transform: uppercase;
+background: #080014;
+padding: 10px 30px;
+display: inline-block;
+color: #fff;
+margin-top: 15px;
+}
+.navbar-new a{ 
+    font-family: 'Arca Majora 3';
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-family: 'Arca Majora 3';
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: #faf9f9;  
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 254, 254);
+    padding: 30px;
+    font-family: 'Arca Majora 3';
+    letter-spacing: 3px;
+}
+.fixed-top{
+    background-color: rgb(54, 52, 54);
+}
+.navbar-nav{
+    text-align: center; 
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(165, 170, 170, 0.959); 
+}
+.w-100{
+  height: 100vh; 
+}
+@media only screen and (max-width:767px){
+    .navbar-nav.ml-auto{
+        background: rgba(0,0,0,0.5);
+    }
+    .navbar-toggler{
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+/* service section #262626;  */
+.service{
+     background: #18171b; 
+}
+.box-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.single-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: .3s;
+}
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 6px solid rgb(201, 190, 190);
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;  
+}
+/* image add kiya nth chaild use kr k wahn 
+hum ne just ak hi tag img likha h but yahn 3 img de rah hn */
+.single-box:nth-child(1) .img-area{
+    background-image: url(./img/960x0.png);
+}
+.single-box:nth-child(2) .img-area{
+    background-image: url(./img/960x0.png);
+}
+.single-box:nth-child(3) .img-area{
+    background-image: url(./img/960x0.png);
+}
+.beader-text{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.img-text{
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.img-text p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.single-box:hover{
+    background:rgb(2, 75, 88) ;
+    color: rgb(250, 249, 252);
+}
+/* footer */
+#footer-area{
+    padding: 90px 0 60px 0;
+    background-color: #202020;
+    color: rgb(238, 242, 245);
+}
+.single-footer{
+    margin-left: 20px;
+}
+.footer-social{
+    margin-top:20px ;
+    
+}
+
+.single-footer h3{
+    /* background-color: blanchedalmond; */
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #faf5f5;
+    font-family: 'Arca Majora 3';
+    margin: 10px;
+    
+}
+.link-area{
+    padding: 0;
+  }
+  .link-area li{
+    padding: 5px 5px 5px;
+    list-style: none;
+  }
+  .link-area li a{
+    text-transform: capitalize;
+    color: #ddd;
+    font-family: monospace;
+    
+}
+  .link-area li a i{
+    margin: 10px;
+    color:#ddd;
+  }
+.single-footer p{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    /* background-color: cyan; */
+    text-align: justify;
+}
+/* ul{
+     list-style: none;
+    margin: 0px;
+    padding: 0px; 
+} */
+.footer-social li{
+    color: cyan;
+    width: 30px;
+    height:30px;
+    display:inline-block; 
+    transition: all .5s ease;
+    text-decoration: none;
+    font-size: 20px;
+  text-decoration:none;
+    /* background: rgb(4, 214, 252); */
+}
+.footer-social li a i{
+    color: rgb(243, 241, 248);
+    padding: 8px;
+    display: block;
+    text-decoration: none;
+    border-bottom: none;
+   
+}
+ footer .footer-social a i:hover{
+    color: rgb(7, 11, 252);
+}
+
+.widget li{
+    float: left;
+    width: 50%;
+}
+.widget li a img{
+    margin-bottom: -10px;
+    width: 100%;
+    height: 70px;
+}
+.copyright-area{
+    background: #000;
+    padding: 30px 0;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.copyright-area p{
+    font-weight: 600;
+    color: rgb(248, 249, 250);
+}
+/* chat-contact section     */
+.chat-contact{
+    padding: 90px 0 60px 0;
+    background-color: #202020;
+    color: rgb(238, 242, 245);
+}
+.row{
+    justify-content: center;
+    
+}
+.contant{
+    text-align: center;
+
+}
+.btn{
+    background-color: rgb(2, 60, 83);
+    color: rgb(255, 251, 254);
+    margin-top: 23px;
+   
+    
+}
+.btn:hover{
+    background-color: rgb(246, 246, 246);
+    color: rgb(10, 0, 5);
+    margin-top: 23px;
+    border: 2px solid rgb(3, 245, 253);
+    text-transform: uppercase ;
+}

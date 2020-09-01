@@ -1,0 +1,115 @@
+Description
+Kinstrah Solutions is a group of professional,
+ experienced and creative individuals working for more than 10 years in
+  Karachi. We offer the following services to various clients locally and globally.
+
+Logo and Graphic Designing Service:
+
+Logo Design, Graphic Design, Product Design, Banner Design,
+ Flyer Design, Stationery Design, Business Card Design, T-Shirts Design,
+  Animations, Social Media Banners, Business Card Design, Company Profile 
+  Design, Product & Merchandise Design.
+
+--
+
+Our Other Services:
+
+Web Design, Business Website,
+ eCommerce Development, WordPress Website Design, Responsive
+  Website, Domain and Hosting Setup, Google AdWords, SEO (Search
+   Engine Optimization), SMM (Social Media Marketing), SEM (Search
+    Engine Marketing), Facebook Ad Management.
+    Graphic Design | Website Design | Logo Design | Business Card Design
+
+       <label for="project-budget">Project Budget</label>
+                <select name="project-budget" id="project-budget">
+                    <option value="one">what valve have you allocated to invest in this projest?</option>
+                    <option value="saab">less then $20.000</option>
+                    <option value="mercedes">$20.000-$30.000</option>
+                    <option value="audi">$30.000-$50.000</option>
+                    <option value="mercedes">$50.000-$100.000</option>
+                    <option value="audi">$100.000+</option>
+                  </select>
+                <!-- <input type="text" placeholder="what valve have you allocated to invest in this projest?"> -->
+
+                <label for="project-type">Project Type</label>
+                <input type="text" placeholder="select all that apply">
+
+
+
+
+
+                check-box with  select
+                 <div class="multiselect">
+                    <div class="selectBox" onclick="showCheckbox()">
+                        <label for="project-type">Project Type</label>
+                        <select required multiple size="6">
+                            <option >Select all that apply</option>
+
+                        </select>
+                        <div class="overSelect"></div>
+                        
+                    </div>
+                    <div id="checkboxes">
+                      
+                     <label for="one" ><input type="checkbox" id="one"/> LogoBranding</label>
+                     <label for="two"><input  type="checkbox" id="two"/> Illustrations</label>
+                     <label for="three"><input type="checkbox" id="three"/> Web Design</label>
+                     <label for="four"><input type="checkbox" id="four"/> Product Design</label>
+                     <label for="five"><input type="checkbox" id="five"/> App Design</label>
+                     <label for="six"><input type="checkbox" id="six"/> Other</label>
+                    
+                    </div>
+
+                </div>
+
+
+                <script>
+    var expanded = false;
+    function showCheckbox(){
+        var checkboxes = document.getElementById("checkboxes");
+        if(!expanded){
+            checkboxes.style.display="block";
+            expanded=true;
+        }else{
+            checkboxes.style.display="none";
+            expanded= false;
+        }
+    }
+</script>
+
+
+/* select-tag multipal salect with check box */
+ .multiselect{
+    width: 200px;
+ }
+ .selectBox{
+      position: relative; 
+ }
+ .selectBox select{
+   
+     width: 100%;
+     font-weight: bold; 
+     padding: 8px 12px;
+     
+     cursor: pointer;
+ }
+ .overSelect{
+      position:absolute; 
+     left: 0; right: 0; top: 0; bottom: 0; 
+ }
+ #checkboxes{
+      display: none; 
+     border: 1px #dadada solid;
+
+
+ }
+ #checkboxes label{
+     display: block; 
+
+ }
+ #checkboxes label:hover{
+     background-color: rgb(245, 245, 8);
+ }
+
+ /* select-tag multipal salect with check box end */

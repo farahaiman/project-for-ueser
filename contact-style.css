@@ -1,0 +1,146 @@
+ /* contact page */
+ *{
+    
+     margin:0;
+    padding: 0; 
+    box-sizing: border-box; 
+    max-width: 100%;
+}
+.grid-container{
+    display: grid;
+     grid-template-columns:  40% 60%;
+    grid-auto-rows: minmax(100px,auto);
+    height: 109vh;
+    
+}
+body{
+    
+    font-family: 'Arca Majora 3';
+  
+}
+.box-1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 2, 48);
+}
+.box-2{
+   background-color: rgb(21, 22, 22);
+   color: rgb(0, 6, 12);
+    
+}
+.greetings{
+    margin-top:5% ;
+    margin-left: 15%;
+    
+}
+form{
+    margin-top: 30px;
+    margin-left: 15%;
+}
+input[type=text]{
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    padding: 10px 10px ;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+    /* border: none; */
+    /* border-bottom: 2px solid rgb(12, 12, 238); */
+    color: rgb(7, 0, 14);
+    outline: none; 
+}
+::placeholder{
+    color: rgb(31, 31, 29);
+    opacity: 0.5;
+    size: 20px;
+}
+#message{
+    width: 95%;
+    padding:40px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    /* border: none; */
+    /* border-bottom: 2px solid rgb(12, 12, 238); */
+    color: rgb(1, 0, 10);
+    /* outline: none; */
+    background-color: rgb(252, 253, 253);
+
+}
+.form-btn{
+    margin-bottom: 50px;
+    margin-top:20px ;
+    margin-left:250px ;
+    border: 2px solid rgb(212, 243, 248);
+    background: darkorange;
+    color: rgb(251, 251, 253);
+    padding: 12px 50px;
+    cursor: pointer;
+}
+.form-btn:hover{
+    background: rgb(25, 3, 105);
+    color: rgb(250, 246, 246);
+
+}
+.nav-bar ul{
+     display: grid;
+     grid-gap: 1px;
+     padding: 0;
+     list-style: none;
+      grid-template-columns:1fr 1fr 1fr ; 
+}
+.nav-bar a{
+    text-decoration: none;
+    color: darkorange;
+    display: inline-block;
+}
+.nav-bar{
+    margin-top: 60px !important;
+    width: 90%;
+    margin:auto;
+}
+.link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: darkorange;
+    transition: width .3s;
+}
+.link:hover::after{
+   width: 100%;
+   transition: width .3s;
+
+}
+.contact-info{
+    margin-top:40% ;
+    margin-left: 5%;
+    color: darkorange;
+}
+.contact-info h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+.contact-info p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.address{
+    margin-top:10px ;
+
+}
+.schedule{
+    margin-top:10px ;
+    margin-bottom: 30px;
+}
+.icons{
+    margin-top:20px ;
+}
+span{
+    margin-right:15px ;
+}
+@media screen and (max-width:992px){
+    .form-btn{
+        margin-left: 0  ;
+    }
+}
+
+
